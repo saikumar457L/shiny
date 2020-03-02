@@ -1,0 +1,11 @@
+<!-- templates/base.html-->
+<!-- with the help of django extends -->
+
+<header>
+  <a href="{% url 'welcome' %}">Home</a> | <a href="{% url 'about' %}">About</a> |
+  <a href ="{% url 'detail' %}">Details</a>
+</header>
+
+{% block content %}
+
+{% endblock content %}
